@@ -2,6 +2,10 @@ import os, sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from app import *
 
+"""
+For better tests
+https://realpython.com/python-testing/
+"""
 def test_quizz_apps():
     print("Testing quizz class")
     quiz = QuizzApp()
